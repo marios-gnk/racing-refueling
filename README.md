@@ -26,6 +26,5 @@ The program prints one integer: the minimum total time in seconds.
 
 ## Results
 
-- All **10 professor-provided test cases** matched their expected outputs. Input files and corresponding expected output files are stored in `tests/`.
-- The assignment's example produced **19** seconds.
+- All **10 provided test cases** matched their expected outputs. Input files and corresponding expected output files are stored in `tests/`.
 - An additional large-integer test correctly produced **9,990,000,000**, confirming support for results greater than 2³².
