@@ -27,3 +27,5 @@ The program prints one integer: the minimum total time in seconds.
 ## Results
 
 - All **10 provided test cases** matched their expected outputs. Input files and corresponding expected output files are stored in `tests/`.
+- In one run per input under WSL, all 10 cases completed in **under 4.3 seconds**. The largest measured runtimes were **4.248 seconds** for `input10.txt`, **3.720 seconds** for `input9.txt`, and **2.832 seconds** for `input8.txt`.
+- Timings were measured using Bash `time` with `python3 main.py < tests/inputN.txt`. These are wall-clock (`real`) times, including Python startup and input parsing; results depend on the machine and system load.
